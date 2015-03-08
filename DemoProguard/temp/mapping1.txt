@@ -1,0 +1,8 @@
+com.example.proguard.bean.News -> com.example.proguard.a.a:
+    java.lang.String title -> a
+    java.lang.String getTitle() -> a
+    void setTitle(java.lang.String) -> a
+com.example.proguard.biz.BIZ_News -> com.example.proguard.b.a:
+    com.example.proguard.bean.News getNews() -> a
+com.example.proguard.ui.ACT_Main -> com.example.proguard.ui.ACT_Main:
+    void onCreate(android.os.Bundle) -> onCreate

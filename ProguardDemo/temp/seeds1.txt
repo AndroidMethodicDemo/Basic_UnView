@@ -1,0 +1,8 @@
+com.example.proguard.R$drawable: int ic_launcher
+com.example.proguard.R$id: int title
+com.example.proguard.R$layout: int act_main
+com.example.proguard.R$string: int app_name
+com.example.proguard.R$style: int AppBaseTheme
+com.example.proguard.R$style: int AppTheme
+com.example.proguard.ui.ACT_Main
+com.example.proguard.ui.ACT_Main: ACT_Main()

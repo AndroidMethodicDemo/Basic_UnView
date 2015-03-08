@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!-- 在nodpi下btn-close为info图片，在xlarge-mdpi下为close图片
+    		实验证明只有在1024×800 mdpi及2560×1600 下才显示close图片，其他情况显示info图片
+    		即向下匹配原则，只有大于等于xlarge并且大于等于mdpi才显示close图片，必须同时大于两者
+     -->
+    <ImageView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:src="@drawable/company_btn_close"
+        />
+
+</LinearLayout>

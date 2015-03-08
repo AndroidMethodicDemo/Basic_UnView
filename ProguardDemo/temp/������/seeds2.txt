@@ -1,0 +1,38 @@
+com.example.proguard.BuildConfig
+com.example.proguard.BuildConfig: boolean DEBUG
+com.example.proguard.BuildConfig: BuildConfig()
+com.example.proguard.R
+com.example.proguard.R: R()
+com.example.proguard.R$attr
+com.example.proguard.R$attr: R$attr()
+com.example.proguard.R$drawable
+com.example.proguard.R$drawable: int ic_launcher
+com.example.proguard.R$drawable: R$drawable()
+com.example.proguard.R$id
+com.example.proguard.R$id: int title
+com.example.proguard.R$id: R$id()
+com.example.proguard.R$layout
+com.example.proguard.R$layout: int act_main
+com.example.proguard.R$layout: R$layout()
+com.example.proguard.R$string
+com.example.proguard.R$string: int app_name
+com.example.proguard.R$string: R$string()
+com.example.proguard.R$style
+com.example.proguard.R$style: int AppBaseTheme
+com.example.proguard.R$style: int AppTheme
+com.example.proguard.R$style: R$style()
+com.example.proguard.bean.News
+com.example.proguard.bean.News: java.lang.String title
+com.example.proguard.bean.News: java.lang.String content
+com.example.proguard.bean.News: News()
+com.example.proguard.bean.News: java.lang.String getTitle()
+com.example.proguard.bean.News: void setTitle(java.lang.String)
+com.example.proguard.bean.News: java.lang.String getContent()
+com.example.proguard.bean.News: void setContent(java.lang.String)
+com.example.proguard.biz.BIZ_News
+com.example.proguard.biz.BIZ_News: BIZ_News()
+com.example.proguard.biz.BIZ_News: java.util.List getNewsList()
+com.example.proguard.biz.BIZ_News: com.example.proguard.bean.News getNews()
+com.example.proguard.ui.ACT_Main
+com.example.proguard.ui.ACT_Main: ACT_Main()
+com.example.proguard.ui.ACT_Main: void onCreate(android.os.Bundle)

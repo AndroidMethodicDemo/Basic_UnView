@@ -1,0 +1,27 @@
+com.example.proguard.BuildConfig -> com.example.proguard.BuildConfig:
+    boolean DEBUG -> DEBUG
+com.example.proguard.R -> com.example.proguard.R:
+com.example.proguard.R$attr -> com.example.proguard.R$attr:
+com.example.proguard.R$drawable -> com.example.proguard.R$drawable:
+    int ic_launcher -> ic_launcher
+com.example.proguard.R$id -> com.example.proguard.R$id:
+    int title -> title
+com.example.proguard.R$layout -> com.example.proguard.R$layout:
+    int act_main -> act_main
+com.example.proguard.R$string -> com.example.proguard.R$string:
+    int app_name -> app_name
+com.example.proguard.R$style -> com.example.proguard.R$style:
+    int AppBaseTheme -> AppBaseTheme
+    int AppTheme -> AppTheme
+com.example.proguard.bean.News -> com.example.proguard.bean.News:
+    java.lang.String title -> title
+    java.lang.String content -> content
+    java.lang.String getTitle() -> getTitle
+    void setTitle(java.lang.String) -> setTitle
+    java.lang.String getContent() -> getContent
+    void setContent(java.lang.String) -> setContent
+com.example.proguard.biz.BIZ_News -> com.example.proguard.biz.BIZ_News:
+    java.util.List getNewsList() -> getNewsList
+    com.example.proguard.bean.News getNews() -> getNews
+com.example.proguard.ui.ACT_Main -> com.example.proguard.ui.ACT_Main:
+    void onCreate(android.os.Bundle) -> onCreate

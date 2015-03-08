@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:weightSum="8.5"
+        >
+    <LinearLayout 
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="6.4"
+        android:orientation="vertical"
+        >
+        <ImageView 
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+	        android:layout_weight="1"
+            android:src="#990099"
+            />
+    </LinearLayout>
+        
+    </LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+         IOS给的图片是2048x1536,使用wrap_content测试一下放在哪个drawable下最好
+    	放在xxhdpi下时，宽占据一半，高占据三分之二
+    	放在nodpi下时，感觉被压缩了，高度填满了，但宽度两侧是空白
+    	放在xlarge-xhdpi下时，高度填满了，但宽度右侧空白比左侧空白要大
+    	放在xlarge-hdpi下时，和放在nodpi下的效果一样
+    -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/situation_list_bg"
+        android:visibility="gone" />
+    <!--
+         cute的像素值为240x240,高度占据6.5分之一
+    	放在nodpi下时，对于过小或过大的手机或平板变形很大，实际上使用nodpi和使用像素一模一样，
+    		只有在密度为1时才显示正常，其他情况都会变形
+  		当图片在xlarge-hdpi，设备为手机时，报资源找不到异常，也就是说，系统会对密度进行缩放，不会对大小进行缩放
+    -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cute" />
+
+</LinearLayout>
+</FrameLayout>

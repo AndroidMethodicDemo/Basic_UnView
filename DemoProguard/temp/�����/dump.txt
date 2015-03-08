@@ -1,0 +1,227 @@
+_____________________________________________________________________
++ Program class: com/example/proguard/a/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.proguard.a.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 16):
+  + Class [com/example/proguard/a/a]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/proguard/a/a.a Ljava/lang/String;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [com/example/proguard/a/a]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String a
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #3
+        + Fieldref [com/example/proguard/a/a.a Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;)V
+    Access flags: 0x1
+      = public void a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #3
+        + Fieldref [com/example/proguard/a/a.a Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/b/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.proguard.b.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 19):
+  + String [两岸中小企业寿命相差超9年]
+  + Class [com/example/proguard/a/a]
+  + Class [com/example/proguard/b/a]
+  + Class [java/lang/Object]
+  + Methodref [com/example/proguard/a/a.<init> ()V]
+  + Methodref [com/example/proguard/a/a.a (Ljava/lang/String;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Ljava/lang/String;)V]
+  + Utf8 [()Lcom/example/proguard/a/a;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [a]
+  + Utf8 [com/example/proguard/a/a]
+  + Utf8 [com/example/proguard/b/a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [两岸中小企业寿命相差超9年]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       a()Lcom/example/proguard/a/a;
+    Access flags: 0x9
+      = public static com.example.proguard.a.a a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 1, stack = 2):
+      [0] new #2
+        + Class [com/example/proguard/a/a]
+      [3] dup
+      [4] invokespecial #5
+        + Methodref [com/example/proguard/a/a.<init> ()V]
+      [7] astore_0 v0
+      [8] aload_0 v0
+      [9] ldc #1
+        + String [两岸中小企业寿命相差超9年]
+      [11] invokevirtual #6
+        + Methodref [com/example/proguard/a/a.a (Ljava/lang/String;)V]
+      [14] aload_0 v0
+      [15] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/ui/ACT_Main
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.proguard.ui.ACT_Main extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 41):
+  + Integer [2130903040]
+  + Integer [2131099648]
+  + Class [android/app/Activity]
+  + Class [android/widget/TextView]
+  + Class [com/example/proguard/a/a]
+  + Class [com/example/proguard/b/a]
+  + Class [com/example/proguard/ui/ACT_Main]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/example/proguard/a/a.a ()Ljava/lang/String;]
+  + Methodref [com/example/proguard/b/a.a ()Lcom/example/proguard/a/a;]
+  + Methodref [com/example/proguard/ui/ACT_Main.findViewById (I)Landroid/view/View;]
+  + Methodref [com/example/proguard/ui/ACT_Main.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a ()Lcom/example/proguard/a/a;]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()Lcom/example/proguard/a/a;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [com/example/proguard/a/a]
+  + Utf8 [com/example/proguard/b/a]
+  + Utf8 [com/example/proguard/ui/ACT_Main]
+  + Utf8 [findViewById]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setText]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ACT_Main()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #8
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 32, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #9
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #14
+        + Methodref [com/example/proguard/ui/ACT_Main.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #2
+        + Integer [2131099648]
+      [14] invokevirtual #13
+        + Methodref [com/example/proguard/ui/ACT_Main.findViewById (I)Landroid/view/View;]
+      [17] checkcast #4
+        + Class [android/widget/TextView]
+      [20] astore_2 v2
+      [21] aload_2 v2
+      [22] invokestatic #12
+        + Methodref [com/example/proguard/b/a.a ()Lcom/example/proguard/a/a;]
+      [25] invokevirtual #11
+        + Methodref [com/example/proguard/a/a.a ()Ljava/lang/String;]
+      [28] invokevirtual #10
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [31] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

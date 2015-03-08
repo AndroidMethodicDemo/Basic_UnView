@@ -1,0 +1,657 @@
+_____________________________________________________________________
++ Program class: com/example/proguard/BuildConfig
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.example.proguard.BuildConfig extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 14):
+  + Integer [0]
+  + Class [com/example/proguard/BuildConfig]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [DEBUG]
+  + Utf8 [Z]
+  + Utf8 [com/example/proguard/BuildConfig]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        DEBUG Z
+    Access flags: 0x19
+      = public static final boolean DEBUG
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [0]
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public BuildConfig()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/R
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.example.proguard.R extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 10):
+  + Class [com/example/proguard/R]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [com/example/proguard/R]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #3
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/R$attr
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.example.proguard.R$attr extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 10):
+  + Class [com/example/proguard/R$attr]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [com/example/proguard/R$attr]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$attr()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #3
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/R$drawable
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.example.proguard.R$drawable extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 14):
+  + Integer [2130837504]
+  + Class [com/example/proguard/R$drawable]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [I]
+  + Utf8 [com/example/proguard/R$drawable]
+  + Utf8 [ic_launcher]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        ic_launcher I
+    Access flags: 0x19
+      = public static final int ic_launcher
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [2130837504]
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$drawable()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/R$id
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.example.proguard.R$id extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 14):
+  + Integer [2131099648]
+  + Class [com/example/proguard/R$id]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [I]
+  + Utf8 [com/example/proguard/R$id]
+  + Utf8 [java/lang/Object]
+  + Utf8 [title]
+
+Fields (count = 1):
+  + Field:        title I
+    Access flags: 0x19
+      = public static final int title
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [2131099648]
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$id()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/R$layout
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.example.proguard.R$layout extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 14):
+  + Integer [2130903040]
+  + Class [com/example/proguard/R$layout]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [I]
+  + Utf8 [act_main]
+  + Utf8 [com/example/proguard/R$layout]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        act_main I
+    Access flags: 0x19
+      = public static final int act_main
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [2130903040]
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$layout()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/R$string
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.example.proguard.R$string extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 14):
+  + Integer [2130968576]
+  + Class [com/example/proguard/R$string]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [I]
+  + Utf8 [app_name]
+  + Utf8 [com/example/proguard/R$string]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 1):
+  + Field:        app_name I
+    Access flags: 0x19
+      = public static final int app_name
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [2130968576]
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$string()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/R$style
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class com.example.proguard.R$style extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 16):
+  + Integer [2131034112]
+  + Integer [2131034113]
+  + Class [com/example/proguard/R$style]
+  + Class [java/lang/Object]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + Utf8 [()V]
+  + Utf8 [<init>]
+  + Utf8 [AppBaseTheme]
+  + Utf8 [AppTheme]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [I]
+  + Utf8 [com/example/proguard/R$style]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 2):
+  + Field:        AppBaseTheme I
+    Access flags: 0x19
+      = public static final int AppBaseTheme
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [2131034112]
+  + Field:        AppTheme I
+    Access flags: 0x19
+      = public static final int AppTheme
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [2131034113]
+
+Methods (count = 1):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public R$style()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/bean/News
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.proguard.bean.News extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 23):
+  + Class [com/example/proguard/bean/News]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/proguard/bean/News.content Ljava/lang/String;]
+  + Fieldref [com/example/proguard/bean/News.title Ljava/lang/String;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [content Ljava/lang/String;]
+  + NameAndType [title Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [com/example/proguard/bean/News]
+  + Utf8 [content]
+  + Utf8 [getContent]
+  + Utf8 [getTitle]
+  + Utf8 [java/lang/Object]
+  + Utf8 [setContent]
+  + Utf8 [setTitle]
+  + Utf8 [title]
+
+Fields (count = 2):
+  + Field:        title Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String title
+  + Field:        content Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String content
+
+Methods (count = 5):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public News()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #5
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getTitle()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String getTitle()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #4
+        + Fieldref [com/example/proguard/bean/News.title Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setTitle(Ljava/lang/String;)V
+    Access flags: 0x1
+      = public void setTitle(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #4
+        + Fieldref [com/example/proguard/bean/News.title Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getContent()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String getContent()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #3
+        + Fieldref [com/example/proguard/bean/News.content Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       setContent(Ljava/lang/String;)V
+    Access flags: 0x1
+      = public void setContent(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #3
+        + Fieldref [com/example/proguard/bean/News.content Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/biz/BIZ_News
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.proguard.biz.BIZ_News extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 23):
+  + String [两岸中小企业寿命相差超9年]
+  + Class [com/example/proguard/bean/News]
+  + Class [com/example/proguard/biz/BIZ_News]
+  + Class [java/lang/Object]
+  + Methodref [com/example/proguard/bean/News.<init> ()V]
+  + Methodref [com/example/proguard/bean/News.setTitle (Ljava/lang/String;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [setTitle (Ljava/lang/String;)V]
+  + Utf8 [()Lcom/example/proguard/bean/News;]
+  + Utf8 [()Ljava/util/List;]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [com/example/proguard/bean/News]
+  + Utf8 [com/example/proguard/biz/BIZ_News]
+  + Utf8 [getNews]
+  + Utf8 [getNewsList]
+  + Utf8 [java/lang/Object]
+  + Utf8 [setTitle]
+  + Utf8 [两岸中小企业寿命相差超9年]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public BIZ_News()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getNewsList()Ljava/util/List;
+    Access flags: 0x9
+      = public static java.util.List getNewsList()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 0, stack = 1):
+      [0] aconst_null
+      [1] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getNews()Lcom/example/proguard/bean/News;
+    Access flags: 0x9
+      = public static com.example.proguard.bean.News getNews()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 1, stack = 2):
+      [0] new #2
+        + Class [com/example/proguard/bean/News]
+      [3] dup
+      [4] invokespecial #5
+        + Methodref [com/example/proguard/bean/News.<init> ()V]
+      [7] astore_0 v0
+      [8] aload_0 v0
+      [9] ldc #1
+        + String [两岸中小企业寿命相差超9年]
+      [11] invokevirtual #6
+        + Methodref [com/example/proguard/bean/News.setTitle (Ljava/lang/String;)V]
+      [14] aload_0 v0
+      [15] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/proguard/ui/ACT_Main
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.proguard.ui.ACT_Main extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 42):
+  + Integer [2130903040]
+  + Integer [2131099648]
+  + Class [android/app/Activity]
+  + Class [android/widget/TextView]
+  + Class [com/example/proguard/bean/News]
+  + Class [com/example/proguard/biz/BIZ_News]
+  + Class [com/example/proguard/ui/ACT_Main]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/example/proguard/bean/News.getTitle ()Ljava/lang/String;]
+  + Methodref [com/example/proguard/biz/BIZ_News.getNews ()Lcom/example/proguard/bean/News;]
+  + Methodref [com/example/proguard/ui/ACT_Main.findViewById (I)Landroid/view/View;]
+  + Methodref [com/example/proguard/ui/ACT_Main.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getNews ()Lcom/example/proguard/bean/News;]
+  + NameAndType [getTitle ()Ljava/lang/String;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()Lcom/example/proguard/bean/News;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [com/example/proguard/bean/News]
+  + Utf8 [com/example/proguard/biz/BIZ_News]
+  + Utf8 [com/example/proguard/ui/ACT_Main]
+  + Utf8 [findViewById]
+  + Utf8 [getNews]
+  + Utf8 [getTitle]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setText]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ACT_Main()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #8
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 32, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #9
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #14
+        + Methodref [com/example/proguard/ui/ACT_Main.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #2
+        + Integer [2131099648]
+      [14] invokevirtual #13
+        + Methodref [com/example/proguard/ui/ACT_Main.findViewById (I)Landroid/view/View;]
+      [17] checkcast #4
+        + Class [android/widget/TextView]
+      [20] astore_2 v2
+      [21] aload_2 v2
+      [22] invokestatic #12
+        + Methodref [com/example/proguard/biz/BIZ_News.getNews ()Lcom/example/proguard/bean/News;]
+      [25] invokevirtual #11
+        + Methodref [com/example/proguard/bean/News.getTitle ()Ljava/lang/String;]
+      [28] invokevirtual #10
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [31] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

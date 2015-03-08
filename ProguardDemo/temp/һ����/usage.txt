@@ -1,0 +1,7 @@
+com.example.proguard.bean.News:
+    private java.lang.String content
+    14:14:public java.lang.String getContent()
+    17:18:public void setContent(java.lang.String)
+com.example.proguard.biz.BIZ_News:
+    7:7:public BIZ_News()
+    10:10:public static java.util.List getNewsList()
